@@ -1,0 +1,4 @@
+FROM centos:7
+RUN yum install htppd -y
+ADD starbootstrap-freelancer-master /var/www/html
+CMD apachectl -DFOREGROUNG
