@@ -26,4 +26,4 @@ RUN cp /tmp/yo.html /usr/shared/nginx/html/docker.html
 VOLUME /var/log/nginx
 
 
-CMD nginx -g 'daemon off:'
+CMD nginx -g 'daemon off;'
